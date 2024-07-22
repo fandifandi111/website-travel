@@ -1,0 +1,65 @@
+html, body {
+    height: 100%; 
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('images/log.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex;
+    justify-content: center; /* Memusatkan secara horizontal */
+    align-items: center; /* Memusatkan secara vertikal */
+    min-height: 100vh; /* Memastikan seluruh halaman tercakup */
+}
+.form-container {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: auto; /* Untuk mengatur posisi form ke tengah */
+    text-align: center; /* Untuk mengatur elemen dalam form menjadi center */
+}
+
+.form-container h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-container form label {
+    margin-bottom: 5px;
+    text-align: left; /* Untuk mengatur label agar teksnya rata kiri */
+}
+
+.form-container form input {
+    width: calc(100% - 20px); /* 20px untuk margin border */
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-container .form-btn {
+    width: 100%; /* Tombol login mengambil lebar maksimal form */
+    padding: 10px;
+    background-color: #007BFF;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px; /* Jarak antara input dan tombol */
+}
+
+.form-container form button:hover {
+    background-color: #0056b3;
+}
+
+.form-container p {
+    text-align: center;
+}
